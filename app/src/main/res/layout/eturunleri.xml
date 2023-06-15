@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eturunleri">
+
+    <ScrollView
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/scrolloval">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ET ÜRÜNLERİ"
+                android:textAlignment="center"
+                android:textColor="#FB9191"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/txtHaslanmisTavukGogsu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Haşlanmış Tavuk Göğsü(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtHaslanmisTavukGogsuBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 110 \n    Yağ: 0.76 g \n    Protein: 25 g \n    Karbonhidrat: 0 g \n" />
+
+            <TextView
+                android:id="@+id/txtPilicNugget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Piliç Nugget(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtPilicNuggetBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 268 \n    Yağ: 20 g \n    Protein: 16 g \n    Karbonhidrat: 6 g \n" />
+
+            <TextView
+                android:id="@+id/txtPismisEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Pişmiş Kırmızı Et(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtPismisEtBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 199 \n    Yağ: 12 g \n    Protein: 28 g \n    Karbonhidrat: 0.68 g \n" />
+
+            <TextView
+                android:id="@+id/txtPismisTavukKanat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Pişmiş Tavuk Kanat(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtPismisTavukKanatBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 330 \n    Yağ: 23 g \n    Protein: 30 g \n    Karbonhidrat: 0 g \n" />
+
+            <TextView
+                android:id="@+id/txtPismisAntrikot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Pişmiş Antrikot(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtPismisAntrikotBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 227 \n    Yağ: 14 g \n    Protein: 24 g \n    Karbonhidrat: 0 g \n" />
+
+            <TextView
+                android:id="@+id/txtPismisYagliKoyunEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Pişmiş Yağlı Koyun Eti(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtPismisYagliKoyunEtBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 307 \n    Yağ: 25 g \n    Protein: 22 g \n    Karbonhidrat: 0 g \n" />
+
+            <TextView
+                android:id="@+id/txtPismisHindiBut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Pişmiş Hindi But(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtPismisHindiButBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 208 \n    Yağ: 10 g \n    Protein: 28 g \n    Karbonhidrat: 0 g \n" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

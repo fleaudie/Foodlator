@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hamurisleri">
+
+    <ScrollView
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/scrolloval">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="HAMUR İŞLERİ"
+                android:textAlignment="center"
+                android:textColor="#FB9191"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/txtSusamliSimit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Susamlı Simit(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtSusamliSimitBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 295 \n    Yağ: 4 g \n    Protein: 11 g \n    Karbonhidrat: 57 g \n" />
+
+            <TextView
+                android:id="@+id/txtSigaraBoreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Sigara Böreği(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtSigaraBoregBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 311 \n    Yağ: 15 g \n    Protein: 9 g \n    Karbonhidrat: 34 g \n" />
+
+            <TextView
+                android:id="@+id/txtPeynirliBorek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Peynirli Börek(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtPeynirliBorekBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 259 \n    Yağ: 9 g \n    Protein: 10 g \n    Karbonhidrat: 33 g \n" />
+
+            <TextView
+                android:id="@+id/txtRamazanPidesi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Ramazan Pidesi(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtRamazanPidesiBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 223 \n    Yağ: 3 g \n    Protein: 4 g \n    Karbonhidrat: 44 g \n" />
+
+            <TextView
+                android:id="@+id/txtBazlama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Bazlama(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtBazlamaBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 235 \n    Yağ: 0.65 g \n    Protein: 7 g \n    Karbonhidrat: 59 g \n" />
+
+            <TextView
+                android:id="@+id/txtPatatesliPogaca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Patatesli Poğaça(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtPatatesliPogacaBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 328 g \n    Yağ: 21 g \n    Protein: 5g  \n    Karbonhidrat: 29 g \n" />
+
+            <TextView
+                android:id="@+id/txtEkmek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Ekmek(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtEkmekBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 256 \n    Yağ: 0.89 g \n    Protein: 8 g \n    Karbonhidrat: 53 g \n" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

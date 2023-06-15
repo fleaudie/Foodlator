@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cikolataseker">
+
+    <ScrollView
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/scrolloval">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="TATLILAR"
+                android:textAlignment="center"
+                android:textColor="#FB9191"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/txtSogukBaklava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Soğuk Baklava(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtSogukBaklavaBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 295 \n    Yağ: 18 g \n    Protein: 4 g \n    Karbonhidrat: 42 g \n" />
+
+            <TextView
+                android:id="@+id/txtYasPasta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Yaş Pasta(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtYasPastaBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 249 \n    Yağ: 4 g \n    Protein: 4 g \n    Karbonhidrat: 45 g \n" />
+
+            <TextView
+                android:id="@+id/txtKunefe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Künefe(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtKunefeBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 355 \n    Yağ: 17 g \n    Protein: 6 g \n    Karbonhidrat: 46 g \n" />
+
+            <TextView
+                android:id="@+id/txtSekerare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Şekerpare(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtSekerpareBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 271 \n    Yağ: 9 g \n    Protein: 3 g \n    Karbonhidrat: 46 g \n" />
+
+            <TextView
+                android:id="@+id/txtKakaoluPuding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Kakaolu Puding(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtKakaoluPudingBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 65 \n    Yağ: 2 g \n    Protein: 4 g \n    Karbonhidrat: 8 g \n" />
+
+            <TextView
+                android:id="@+id/txtSutlac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Sütlaç(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtSutlacBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 105 \n    Yağ: 1 g \n    Protein: 2 g \n    Karbonhidrat: 22 g \n" />
+
+            <TextView
+                android:id="@+id/txtEkler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Ekler(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtEklerBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 239 \n    Yağ: 14 g \n    Protein: 7 g \n    Karbonhidrat: 22 g \n" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sututunleri">
+
+    <ScrollView
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/scrolloval">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSutUrunleri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="SÜT VE SÜT ÜRÜNLERİ"
+                android:textAlignment="center"
+                android:textColor="#FB9191"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/txtSut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Süt(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtSutBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 65 \n    Yağ: 3.8 g \n    Protein: 3.3 \n    Karbonhidrat: 4.7 g \n" />
+
+            <TextView
+                android:id="@+id/txtBeyazPeynir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Beyaz Peynir(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtPeynirBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 309 \n    Yağ: 23.6 g \n    Protein: 16.1 g \n    Karbonhidrat: 8.21 g \n" />
+
+            <TextView
+                android:id="@+id/txtHellim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Hellim(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtHellimBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 145 \n    Yağ: 27 g \n    Protein: 20.7 g \n    Karbonhidrat: 5.8 g \n" />
+
+            <TextView
+                android:id="@+id/txtKasar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Kaşar Peyniri(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtKasarBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 350 \n    Yağ: 26 g \n    Protein: 26.99 g \n    Karbonhidrat: 2.56 g \n" />
+
+            <TextView
+                android:id="@+id/txtYogurt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Yoğurt(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtYogurtBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 63 g \n    Yağ: 3.5 g \n    Protein: 3.5 g \n    Karbonhidrat: 4.5 g \n" />
+
+            <TextView
+                android:id="@+id/txtAyran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Ayran(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtAyranBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 37 \n    Yağ: 2 g \n    Protein: 1.98 g \n    Karbonhidrat: 2.71 g \n" />
+
+            <TextView
+                android:id="@+id/txtTereyagi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Tereyağı(100 g)"
+                android:textColor="#FB9191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtTereyagiBesin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ovalyazi"
+                android:text="\n    Enerji(kcal): 716 \n    Yağ: 81 g \n    Protein: 0.9 g \n    Karbonhidrat: 0.1 g \n" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
