@@ -3,7 +3,7 @@
 An application where you can access nutritional values categorized by food items.
 
 ## General Overview
-![design](https://github.com/fleaudie/Foodlator/assets/121239335/262e6e0d-79cd-47a8-8bbb-0e3c819ac660)
+![design](https://github.com/fleaudie/Foodlator/assets/121239335/4563703c-be97-4c9c-9481-97fd041591dc)
 Figma Link: https://www.figma.com/file/5sKsGT4rRafE9MJRCXclTZ/Foodlator?type=design&t=pUUXkZmJouikAOKj-6
 
 ## Technologies
