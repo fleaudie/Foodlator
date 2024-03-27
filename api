@@ -1,6 +1,3 @@
-from flask import Flask, jsonify
-
-app = Flask(__name__)
 categories = {
     "fruit_and_vegetables": [
         {"food": "Apple(1 average)", "weight": 182,
@@ -350,31 +347,6 @@ categories = {
         {"food": "Twinkies(100 g)", "nutrients": {"ENERC_KCAL": 425, "PROCNT": 2.0, "FAT": 19.0, "CHOCDF": 60.0, "FIBTG": 0.5}}
     ],
 }
-
-
-@app.route('/categories', methods=['GET'])
-def get_categories():
-    return jsonify(list(categories.keys()))
-
-
-@app.route('/categories/<category>', methods=['GET'])
-def get_category_info(category):
-    if category in categories:
-        return jsonify(categories[category])
-    else:
-        return jsonify({"error": "Category not found"}), 404
-
-
-@app.route('/foods/<category>/<food_name>', methods=['GET'])
-def get_food_info(category, food_name):
-    if category in categories:
-        foods = categories[category]
-        for food in foods:
-            if food['food'] == food_name:
-                return jsonify(food)
-        return jsonify({"error": "Food not found"}), 404
-    else:
-        return jsonify({"error": "Category not found"}), 404
 
 if __name__ == '__main__':
     app.run(debug=True, host='192.168.0.211')
